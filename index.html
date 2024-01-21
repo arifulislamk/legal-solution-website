@@ -46,8 +46,8 @@
     </style>
 </head>
 
-<body class=" lg:mx-28">
-    <header class="container mx-auto">
+<body class="lg:mx-28">
+    <header class="container mx-auto mt-12">
         <!-- navbar full section  -->
         <nav class="font-poppins mb-12">
             <div class="navbar bg-base-100">
@@ -72,7 +72,7 @@
                     <img class="w-1/2" src="./images/logo2.png" alt="">
                 </div>
                 <div class="navbar-center hidden lg:flex">
-                    <ul class="menu menu-horizontal px-1">
+                    <ul class="menu gap-7 menu-horizontal px-1">
                         <li><a>Home<i class="fa-solid fa-chevron-right"></i></a></li>
                         <li><a>Services<i class="fa-solid fa-chevron-right"></i></a></li>
                         <li><a>Cases<i class="fa-solid fa-chevron-right"></i></a></li>
@@ -104,6 +104,7 @@
         </div>
     </header>
     <main class="container mx-auto">
+
         <!-- Legal practise area  -->
         <section class="text-center mt-32">
             <h2 class="text-4xl font-extrabold font-eb-garamond">The Legal Practice Area</h2>
@@ -283,6 +284,7 @@
         </section>
 
         <!-- Contact With Us sectiion -->
+
         <section class="my-32">
 
             <div class="text-center">
@@ -294,25 +296,25 @@
             </div>
             <div class="flex gap-8 flex-col lg:flex-row">
                 <div class="grid grid-cols-1 lg:grid-cols-2 items-center justify-center flex-1">
-                    <div class="p-16 space-y-4 bg-bg-primary">
+                    <div class="p-16 flex flex-col items-center text-center space-y-4 bg-bg-primary">
                         <img src="./images/address.png" alt="">
                         <h4 class="text-2xl font-extrabold text-[#414040]">Address</h4>
                         <p class="font-poppins">A108 Adam Street,
                             New York, NY 535022</p>
                     </div>
-                    <div class="p-16 space-y-4 bg-bg-primary">
+                    <div class="p-16 flex flex-col items-center text-center space-y-4 bg-bg-primary">
                         <img src="./images/call.png" alt="">
                         <h4 class="text-2xl font-extrabold text-[#414040]">Call Us</h4>
                         <p class="font-poppins">+88 01750 00 00 00
                             +88 01750 00 00 00</p>
                     </div>
-                    <div class="p-16 space-y-4 bg-bg-primary">
+                    <div class="p-16 flex flex-col items-center text-center space-y-4 bg-bg-primary">
                         <img src="./images/email.png" alt="">
                         <h4 class="text-2xl font-extrabold text-[#414040]">Email Us</h4>
                         <p class="font-poppins">info@gmail.com
                             info@gmail.com</p>
                     </div>
-                    <div class="p-16 space-y-4 bg-bg-primary">
+                    <div class="p-16 flex flex-col items-center text-center space-y-4 bg-bg-primary">
                         <img src="./images/time.png" alt="">
                         <h4 class="text-2xl font-extrabold text-[#414040]">Working Hours</h4>
                         <p class="font-poppins">Mon-Fri: 9AM to 5PM
@@ -334,11 +336,41 @@
                 </div>
             </div>
         </section>
-
     </main>
-    <footer>
-
-    </footer>
+    <footer class=" footer p-10 bg-base-200 text-base-content">
+        <nav>
+          <header class="footer-title"><img class="w-1/2" src="./images/logo2.png" alt=""></header> 
+          <a class="link link-hover">Branding</a>
+          <a class="link link-hover">Design</a>
+          <a class="link link-hover">Marketing</a>
+          <a class="link link-hover">Advertisement</a>
+        </nav> 
+        <nav>
+          <header class="footer-title">Usefull Link</header> 
+          <a class="link link-hover">About us</a>
+          <a class="link link-hover">Contact</a>
+          <a class="link link-hover">Jobs</a>
+          <a class="link link-hover">Press kit</a>
+        </nav> 
+        <nav>
+          <header class="footer-title">Contact Now</header> 
+          <a class="link link-hover">Terms of use</a>
+          <a class="link link-hover">Privacy policy</a>
+          <a class="link link-hover">Cookie policy</a>
+        </nav> 
+        <form>
+          <header class="footer-title">Newsletter</header> 
+          <fieldset class="form-control w-80">
+            <label class="label">
+              <span class="label-text">Enter your email address</span>
+            </label> 
+            <div class="join">
+              <input type="text" placeholder="username@site.com" class="input input-bordered join-item" /> 
+              <button class="btn bg-btn-fixed join-item">Subscribe</button>
+            </div>
+          </fieldset>
+        </form>
+      </footer>
 </body>
 
 </html>
